@@ -3,7 +3,7 @@ import Me from '../../assets/mahmoud salah.jpg'
 import Cv from '../../assets/Mahmoud_Salah_Ali_KeshtaCv.pdf'
 import Homesocheals from './Homesocheals'
 
-import './home.css'
+import './Home.css'
  
 function Home() {
   return (
@@ -15,7 +15,7 @@ function Home() {
 
         <div className='btns '>
           <a href={Cv} className='btn' download>Download Cv</a>
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a> 
         </div>
       
           <div className="me">
