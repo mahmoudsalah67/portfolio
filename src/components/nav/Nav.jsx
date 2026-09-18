@@ -1,5 +1,5 @@
 import React from 'react'
-import './nav.css'
+import './Nav.css'
 import { IoHomeOutline } from "react-icons/io5";
 import { LuUserRound } from "react-icons/lu";
 import { BiBook } from "react-icons/bi";

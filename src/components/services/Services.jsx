@@ -1,5 +1,5 @@
 import React from 'react'
-import './services.css'
+import './Services.css'
 import { MdDesignServices } from "react-icons/md";
 import { IoIosRocket } from "react-icons/io";
 import { FaCode } from "react-icons/fa";
