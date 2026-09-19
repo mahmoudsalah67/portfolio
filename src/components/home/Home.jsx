@@ -1,6 +1,6 @@
 import React from 'react'
 import Me from '../../assets/mahmoud salah.jpg'
-import Cv from '../../assets/Mahmoud_Salah_Ali_KeshtaCv.pdf'
+import Cv from '../../assets/Mahmoud_Salah_Ali_Keshta_CV.pdf'
 import Homesocheals from './Homesocheals'
 
 import './Home.css'

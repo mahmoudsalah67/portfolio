@@ -38,10 +38,19 @@ const About = () => {
                 <small>10+ Completed</small>
               </div>
             </div>
-              <p>Motivated Front-End Developer with hands-on experience in building responsive, interactive, and scalable web applications using React , Next.js, TypeScript, and modern UI frameworks. Trained at Route Academy, with multiple portfolio projects demonstrating strong UI/UX design, performance optimization, and clean code practices.
-
-Passionate about continuous learning, teamwork, and transforming creative ideas into functional digital solutions.</p>
-              <a href="#contact" className="btn btn-primary">Let's Talk</a>
+            <p>
+              I am a motivated Front-End Developer with hands-on experience in
+              building responsive, interactive, and scalable web applications
+              using React, Next.js, TypeScript, and modern UI frameworks.
+              Trained at Route Academy, I have built multiple portfolio projects
+              that demonstrate strong UI/UX design, performance optimization,
+              and clean code practices. I am passionate about continuous
+              learning, teamwork, and transforming creative ideas into
+              functional digital solutions
+            </p>
+            <a href="#contact" className="btn btn-primary">
+              Let's Talk
+            </a>
           </div>
         </div>
       </section>
