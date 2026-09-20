@@ -7,7 +7,7 @@ import './Home.css'
  
 function Home() {
   return (
-    <div className='home'>
+    <div className='home '>
       <div className="contanier home_contanier ">
         <h4>Hello I'm</h4>
         <h1>Mahmoud Salah</h1>
@@ -18,7 +18,7 @@ function Home() {
           <a href="#contact" className='btn btn-primary'>Let's Talk</a> 
         </div>
       
-          <div className="me">
+          <div className="me mb-5">
             <img src={Me} alt="" />
           </div>
       </div>

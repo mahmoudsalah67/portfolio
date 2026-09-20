@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css' 
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg';
+import IMG1 from '../../assets/joocare.png'
+import IMG2 from '../../assets/ecommerce.png';
  
 import IMG4 from '../../assets/portfolio4.jpg';
 import IMG5 from '../../assets/portfolio5.png';
@@ -12,16 +12,16 @@ const portfolioData = [
   {
     id: 1,
     image: IMG1,
-    title: 'ecommerce',
-    github: 'https://github.com/mahmoudsalah67/ecommerce',
-    demo: 'https://demo1.com'
+    title: 'JooCare',
+    github: 'https://github.com/mahmoudsalah67/joocare',
+    demo: 'https://joocare-eight.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Mealify',
-    github: 'https://github.com/mahmoudsalah67/Mealify.',
-    demo: 'https://loquacious-concha-815423.netlify.app/'
+    title: 'ecommerce',
+    github: 'https://github.com/mahmoudsalah67/e-commerce-nextjs',
+    demo: 'https://ecommerce-seven-theta-89.vercel.app/'
   },
  
   {
@@ -46,8 +46,8 @@ const Projects = () => {
      <div className="projects " id='projects'>
       <div className="top_section">
            
-        <h5>What Skills I Have</h5>
-        <h2>My Experience</h2>
+        <h5>What Projects I Have</h5>
+        <h2>My Projects</h2>
       </div>
       <div className="contanier projects_contanier">
         {portfolioData.map(({id,image ,title,github,demo})=>(
