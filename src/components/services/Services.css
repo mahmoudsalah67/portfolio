@@ -1,0 +1,44 @@
+.contanier_services{
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+
+ flex-wrap: wrap;
+}
+
+.contanier_services .card{
+    width: 25%;
+    background: var(--color-bg-variant);
+    padding: 15px;
+    margin-bottom:40px ;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+     
+    
+}
+.card:hover{
+   
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.icon i{
+   color: var(--color-primary);
+}
+
+/* responsive */
+
+@media (max-width:1024px){
+    .contanier_services .card{
+        width: 48%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:600px){
+    .contanier_services .card{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
